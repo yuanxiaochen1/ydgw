@@ -46,14 +46,14 @@
 }
 .footer .imgBox .img1{
   display: block;
-  height: 16vh;
-  width: 26vw;
+  height: 90px;
+  width: 90px;
   margin: 30px auto 0;
 }
 .footer .imgBox .img2{
   display: block;
-  height: 3vh;
-  width: 22.5vw;
+  height: 25px;
+  width: 70px;
   margin:5px auto 0;
 }
 .footer_text {

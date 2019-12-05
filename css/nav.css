@@ -14,13 +14,15 @@
   padding-left: 5%;
 }
 .logo{
-  height: 100%;
+  height: 22px;
+  width: 92px;
 }
 .active-header{
   color: #1F3690 !important; 
 }
 .menuIco,.closeIco{
-  height: 130%;
+  height:29px;
+  width: 39px;
   padding-right: 10px;
 }
 .mask-nav{
@@ -60,4 +62,6 @@
 }
 .closeIco{
   display: none;
+  height: 29px;
+  width: 39px;
 }

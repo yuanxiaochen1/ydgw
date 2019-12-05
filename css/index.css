@@ -109,8 +109,8 @@
 
 .slider1 .img {
   position: absolute;
-  width: 26vw;
-  height: 16vh;
+  width: 90px;
+  height: 90px;
   background: url(../images/wing_xcx.png) no-repeat;
   background-size: 100% 100%;
   bottom: 14vh;
@@ -119,8 +119,8 @@
 
 .slider2 .img {
   position: absolute;
-  width: 26vw;
-  height: 16vh;
+  width: 90px;
+  height: 90px;
   background: url(../images/wing_xcx.png) no-repeat;
   background-size: 100% 100%;
   bottom: 14vh;
@@ -267,8 +267,8 @@
 
 .slider6 .img {
   position: absolute;
-  width: 26vw;
-  height: 16vh;
+  width: 90px;
+  height: 90px;
   background: url(../images/位图@2x.png) no-repeat;
   background-size: 100% 100%;
   bottom: 14vh;
@@ -484,7 +484,7 @@
 
 .item7 {
   width: 100vw;
-  height: 90vh;
+  height:90vh;
   background: #E2E6F8;
   overflow: hidden;
 }
@@ -515,16 +515,16 @@
 
 .item7 .index_companyList {
   margin: 5vh auto 0;
-  width: 80vw;
-  height: 58vh;
+  width: 310px;
+  height: 376px;
   overflow: hidden;
 }
 
 .item7 .index_companyList li {
   position: relative;
   float: left;
-  width: 15vw;
-  height: 9vh;
+  width: 60px;
+  height: 60px;
   margin-right: 2px;
   margin-bottom: 2px;
 }
