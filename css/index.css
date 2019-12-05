@@ -484,7 +484,6 @@
 
 .item7 {
   width: 100vw;
-  height:90vh;
   background: #E2E6F8;
   overflow: hidden;
 }
@@ -518,6 +517,7 @@
   width: 310px;
   height: 376px;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .item7 .index_companyList li {
