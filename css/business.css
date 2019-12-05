@@ -1,0 +1,221 @@
+  .package{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  .section{
+    width: 100%;
+    background: #FFFFFF;
+    padding:10px 0;
+  }
+  .wrap_title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .section1{
+    background: #EDEFF7;
+  }
+  .section1 .wrap_title{
+    height: 50px;
+    position: relative;
+  }
+  .section1 .wrap_title h2{
+    position: absolute;
+    font-size:16px;
+    font-weight:400;
+    color:rgba(0,0,0,0.85);
+  }
+  .section1 .wrap_title img{
+    height: 100%;
+  }
+  .section1 .wrap1_list{
+    border-top: #D7D9E1 solid 1px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .wrap1_item{
+    padding-top: 20px;
+  }
+  .wrap1_item h2{
+    font-size:14px;
+    font-weight:500;
+    color:rgba(76,67,135,1);
+  }
+  .wrap1_item p{
+    font-size:10px;
+    font-weight:300;
+    color:rgba(76,67,135,1);
+  }
+  .wrap1_item img{
+    width: 100%;
+    height: auto;
+  }
+  .wrap1_item video{
+    width: 100%;
+    height: 190px;
+  }
+  .section2{
+    width: 100%;
+  }
+  .section2 .wrap_title,.section3 .wrap_title{
+    font-size:18px;
+    font-weight:600;
+    color:rgba(65,59,105,1);
+  }
+  .section2 .wrap{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: #D7D9E1 solid 1px;
+  }
+  .wrap2_list{
+    padding: 0 20px;
+  }
+  .wrap2_item{
+    padding: 18px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 4px 9px 0px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .wrap2_item >img{
+    width: 100%;
+    height: auto;
+  }
+  .wrap2_item h2{
+    font-size: 22px;
+  }
+  .wrap2_item a, .wrap2_item p{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(0,0,0,0.6);
+  }
+  .wrap2_button{
+    display: block;
+    height: 66px;
+    padding: 18px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.5);
+    border-radius:14px;
+    border:1px solid rgba(151,151,151,1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .weixin{
+    background:#4198A1;
+  }
+  .matrix{
+    background:#7A75CC;
+  }
+  .wing{
+    background:#5FA6D6;
+  }
+  .wrap2_button h2{
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .wrap2_button img{
+    width: 50px;
+  }
+  .androidIos{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+  .androidIos a{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .androidIos img{
+    width: 20px;
+    height: auto;
+  }
+  .tip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+  }
+  .tipDiscoverer a{
+    color: #6B48A1
+  }
+  .tipMatrix a{
+    color: #D74239
+  }
+  .tipWing a{
+    color: #0091FF
+  }
+  .line{
+    width:28px;
+    height: 6px; 
+    background: #000000;
+  }
+  .lineDiscoverer{
+    background: #6B48A1;
+  }
+  .lineMatrix{
+    background: #D74239;
+  }
+  .lineWing{
+    background: #0091FF;
+  }
+  .mask-qrcode{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mask-qrcode img{
+    width: 100%;
+  }
+  .wrap_button{
+    width: 140px;
+    padding: 0 10px;
+    height: 32px;
+    border-radius: 30px;
+    background: #EDA02D;
+    box-shadow: 4px 30%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .wrap_button a{
+    width: 100%;
+    padding: 0 10px;
+    color:#FFFFFF;
+  }
+  .section3 .wrap{
+     display: flex;
+     flex-direction: column;
+     justify-content:space-around;
+     align-items: center;
+  }
+  .section3 img{
+      margin: 0 auto;
+      width: 50%;
+      height: auto;
+  }
+  .section3 .wrap_button{
+      width: auto;
+      background: #74CB75;
+  }
+  .img-qrcode{
+    width: 100%;
+  }

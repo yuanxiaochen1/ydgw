@@ -1,0 +1,9 @@
+$(function(){
+    $(".closeIco").show();
+    $(".logo").click(function(){
+        location.href='index.html';
+    });
+    $(".closeIco").click(function(){
+        location.href='index.html';
+    });
+})

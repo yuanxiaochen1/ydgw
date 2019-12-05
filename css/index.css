@@ -1,0 +1,546 @@
+.package {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+
+}
+
+.item1 {
+  width: 100vw;
+  height: 92vh;
+}
+
+#swiper-pagination {
+  color: #FFF;
+  width: 52px;
+  height: 27px;
+  line-height: 27px;
+  left: 80vw !important;
+  bottom: 5.5vh !important;
+}
+
+.swiper-button-prev {
+  width: 27px !important;
+  height: 27px !important;
+  background-size: 100% 100% !important;
+  left: 74vw !important;
+  bottom: 5.5vh !important;
+
+}
+
+.swiper-button-next {
+  width: 27px !important;
+  height: 27px !important;
+  background-size: 100% 100% !important;
+  left: 92vw !important;
+  bottom: 5.5vh !important;
+}
+
+
+.swiper-slide {
+  width: 100vw;
+  height: 92vh !important;
+  position: relative;
+}
+
+.swiper-slide h3 {
+  position: absolute;
+  width: 55vw;
+  height: 10vh;
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 1px;
+  top: 15.5vh;
+  left: 8vw;
+}
+
+.swiper-slide p {
+  position: absolute;
+  margin: 0;
+  width: 92vw;
+  height: 4vh;
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 4vh;
+  letter-spacing: 1px;
+  left: 8vw;
+  top: 11.5vh;
+}
+
+.swiper-slide span {
+  position: absolute;
+  display: block;
+  width: 70vw;
+  height: 27px;
+  font-size: 12px;
+  font-family: PingFangSC-Light, PingFang SC;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  line-height: 27px;
+  letter-spacing: 5px;
+  left: 8vw;
+  bottom: 5.5vh;
+}
+
+.swiper-slide .img1 {
+  position: absolute;
+  height: 15vh;
+  width: 20.5vw;
+  top: 3vh;
+  left: 0;
+  background: white;
+  opacity: 0.1;
+}
+
+.swiper-slide .img2 {
+  position: absolute;
+  height: 15vh;
+  width: 24vw;
+  top: 18vh;
+  left: 53.5vw;
+  background: white;
+  opacity: 0.1;
+}
+
+.slider1 .img {
+  position: absolute;
+  width: 26vw;
+  height: 16vh;
+  background: url(../images/wing_xcx.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 14vh;
+  right: 3vw;
+}
+
+.slider2 .img {
+  position: absolute;
+  width: 26vw;
+  height: 16vh;
+  background: url(../images/wing_xcx.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 14vh;
+  right: 3vw;
+}
+
+.slider2 .videoBox {
+  position: absolute;
+  width: 64vw;
+  height: 22.5vh;
+  z-index: 10;
+  top: 32.5vh;
+  left: 19vw;
+}
+
+.slider2 .videoBox #buttom1 {
+  position: absolute;
+  width: 11vw;
+  height: 7vh;
+  z-index: 999;
+  top: 7.75vh;
+  left: 26.5vw;
+}
+
+.slider2 .videoBox #imgBG1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.slider2 .videoBox video {
+  width: 64vw;
+  height: 22.5vh;
+  display: block;
+}
+
+.slider2 .videoBG {
+  box-sizing: border-box;
+  position: absolute;
+  width: 64vw;
+  height: 22.5vh;
+  opacity: 0.2;
+  border: 1px solid rgba(255, 255, 255, 1);
+  z-index: 1;
+  top: 34vh;
+  left: 22vw;
+}
+
+
+.slider3 .videoBox {
+  position: absolute;
+  width: 64vw;
+  height: 22.5vh;
+  z-index: 10;
+  top: 32.5vh;
+  left: 19vw;
+}
+
+.slider3 .videoBox #buttom2 {
+  position: absolute;
+  width: 11vw;
+  height: 7vh;
+  z-index: 999;
+  top: 7.75vh;
+  left: 26.5vw;
+}
+
+.slider3 .videoBox #imgBG2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.slider3 .videoBox video {
+  width: 64vw;
+  height: 22.5vh;
+  display: block;
+}
+
+.slider3 .videoBG {
+  box-sizing: border-box;
+  position: absolute;
+  width: 64vw;
+  height: 22.5vh;
+  opacity: 0.2;
+  border: 1px solid rgba(255, 255, 255, 1);
+  z-index: 1;
+  top: 34vh;
+  left: 22vw;
+}
+
+
+
+.slider4 .videoBox {
+  position: absolute;
+  width: 64vw;
+  height: 22.5vh;
+  z-index: 10;
+  top: 32.5vh;
+  left: 19vw;
+}
+
+.slider4 .videoBox #buttom3 {
+  position: absolute;
+  width: 11vw;
+  height: 7vh;
+  z-index: 999;
+  top: 7.75vh;
+  left: 26.5vw;
+}
+
+.slider4 .videoBox #imgBG3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.slider4 .videoBox video {
+  width: 64vw;
+  height: 22.5vh;
+  display: block;
+}
+
+.slider4 .videoBG {
+  box-sizing: border-box;
+  position: absolute;
+  width: 64vw;
+  height: 22.5vh;
+  opacity: 0.2;
+  border: 1px solid rgba(255, 255, 255, 1);
+  z-index: 1;
+  top: 34vh;
+  left: 22vw;
+}
+
+.slider6 .img {
+  position: absolute;
+  width: 26vw;
+  height: 16vh;
+  background: url(../images/位图@2x.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 14vh;
+  right: 3vw;
+}
+
+.slider1 {
+  background: url(../images/img01.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.slider2 {
+  background: url(../images/img01.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.slider3 {
+  background: url(../images/img01.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.slider4 {
+  background: url(../images/img01.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.slider5 {
+  background: url(../images/img01.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.slider6 {
+  background: url(../images/img06.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.item2 {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/img06.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.item2 .item2-title {
+  width: 43vw;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 28px;
+  margin: 11vh auto 0;
+  text-align: center;
+}
+
+.item2 .item2-text {
+  display: block;
+  width: 76.5vw;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 20px;
+  margin: 2vh auto 0;
+  letter-spacing: 1px;
+}
+
+.item3 {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/img06.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.item3 .item3-title {
+  width: 43vw;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 28px;
+  margin: 11vh auto 0;
+  text-align: center;
+}
+
+.item3 .item3-text {
+  display: block;
+  width: 85vw;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 24px;
+  margin: 2vh auto 0;
+  letter-spacing: 1px;
+}
+
+.a {
+  display: block;
+  width: 29.5vw;
+  height: 5vh;
+  background: rgba(64, 106, 150, 1);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 5vh;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 4vh auto 0;
+}
+
+.item4 {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/img06.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.item4 .item4-title {
+  width: 43vw;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 28px;
+  margin: 11vh auto 0;
+  text-align: center;
+}
+
+.item4 .item4-text {
+  display: block;
+  width: 85vw;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 24px;
+  margin: 2vh auto 0;
+  letter-spacing: 1px;
+}
+
+.item5 {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/img06.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.item5 .item5-title {
+  width: 43vw;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 28px;
+  margin: 11vh auto 0;
+  text-align: center;
+}
+
+.item5 .item5-text {
+  display: block;
+  width: 85vw;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 24px;
+  margin: 2vh auto 0;
+  letter-spacing: 1px;
+}
+
+.item6 {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/img06.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.item6 .item6-title {
+  width: 43vw;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 28px;
+  margin: 11vh auto 0;
+  text-align: center;
+}
+
+.item6 .item6-text {
+  display: block;
+  width: 85vw;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 24px;
+  margin: 2vh auto 0;
+  letter-spacing: 1px;
+}
+
+.item7 {
+  width: 100vw;
+  height: 90vh;
+  background: #E2E6F8;
+  overflow: hidden;
+}
+
+.item7 .item7-title {
+  width: 43vw;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 28px;
+  margin: 11vh auto 0;
+  text-align: center;
+}
+
+.item7 .item7-text {
+  display: block;
+  width: 76vw;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 24px;
+  margin: 2vh auto 0;
+  letter-spacing: 1px;
+}
+
+.item7 .index_companyList {
+  margin: 5vh auto 0;
+  width: 80vw;
+  height: 58vh;
+  overflow: hidden;
+}
+
+.item7 .index_companyList li {
+  position: relative;
+  float: left;
+  width: 15vw;
+  height: 9vh;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.item7 .index_companyList li img {
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.item7 .index_companyList>li:nth-last-child(1),
+.item7 .index_companyList>li:nth-last-child(6),
+.item7 .index_companyList>li:nth-last-child(11),
+.item7 .index_companyList>li:nth-last-child(16),
+.item7 .index_companyList>li:nth-last-child(21),
+.item7 .index_companyList>li:nth-last-child(26) {
+  margin-right: 0px;
+}

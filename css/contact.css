@@ -1,0 +1,16 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding-top: 50px;
+}
+.content img{
+  width: 80%;
+  height: auto;
+}
+.content h2{
+  font-size:18px;
+  font-weight:400;
+  color:rgba(65,59,105,1);
+}
