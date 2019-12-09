@@ -7,11 +7,14 @@
   flex-direction: column;
 }
 .content{
-  margin-top: 7vh;
+  margin-top: 8vh;
   flex: 1;
   display: flex;
   flex-direction: column;
   background: #FFFFFF;
+}
+.section{
+  margin-bottom: 20px;
 }
 .wrap_title{
   background: #EDEFF7;

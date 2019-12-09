@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .content{
-  margin-top: 7vh;
+  margin-top: 8vh;
   flex: 1;
   background: #EDEFF7;
   display: flex;
@@ -15,6 +15,7 @@
 }
 .section{
   padding-top: 30px;
+  margin-bottom: 20px;
 }
 .wrap{
   display: flex;
