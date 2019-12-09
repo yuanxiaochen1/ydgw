@@ -30,7 +30,7 @@
 .item2 .videoBox {
     position: absolute;
     width: 64vw;
-    height: 19vh;
+    height: 36vw;
     z-index: 10;
     top: 40px;
     left: 18vw;
@@ -41,7 +41,7 @@
     width: 11vw;
     height: 11vw;
     z-index: 999;
-    top: 6vh;
+    top: 12.5vw;
     left: 26.5vw;
 }
 
@@ -56,7 +56,7 @@
 
 .item2 .videoBox video {
     width: 64vw;
-    height: 19vh;
+    height: 36vw;
     display: block;
 }
 
@@ -64,7 +64,7 @@
     box-sizing: border-box;
     position: absolute;
     width: 64vw;
-    height: 19vh;
+    height: 36vw;
     opacity: 0.3;
     border: 3px solid rgba(0, 0, 0, 0.14);
     z-index: 1;

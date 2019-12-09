@@ -10,7 +10,7 @@
   margin-top: 20px;
   float: left;
   margin-left: 10vw;
-  width: 57px;
+  width: 80px;
 }
 .bav1{
   margin-left: 150px;
@@ -18,7 +18,6 @@
 
 .index_footer_bav dt {
   margin-top: 34px;
-  width: 28px;
   height: 20px;
   font-size: 14px;
   font-family: PingFangSC-Semibold, PingFang SC;
@@ -27,7 +26,6 @@
   line-height: 20px;
 }
 .index_footer_bav dd {
-  width: 57px;
   height: 20px;
   font-size: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
@@ -52,8 +50,8 @@
 }
 .footer .imgBox .img2{
   display: block;
-  height: 25px;
-  width: 70px;
+  height: 22px;
+  width: 83px;
   margin:5px auto 0;
 }
 .footer_text {
