@@ -1,0 +1,243 @@
+.package {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+
+}
+
+.item1 {
+    margin-top: 7vh;
+    width: 100vw;
+    background: url(../images/企业bg4.png) no-repeat;
+    background-size: 100% 100%;
+    height: 40vw;
+    font-size: 28px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    line-height: 46vw;
+}
+
+.item2 {
+    width: 100vw;
+    height: 60vw;
+    background: url(../images/assistant1.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.item2 .title {
+    text-align: center;
+    margin: 40px auto 0;
+    font-size: 18px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 45px;
+}
+
+.item2 .text {
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+    font-size: 13px;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.item3 {
+    width: 100vw;
+    height: 60vw;
+    background: url(../images/assitant2.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.item3 .title {
+    text-align: center;
+    margin: 40px auto 0;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 45px;
+}
+
+.item3 .text {
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+    font-size: 13px;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.item5 {
+    width: 100vw;
+    height: 60vw;
+    background: url(../images/assistant3.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.item5 .title {
+    text-align: center;
+    margin: 40px auto 0;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 45px;
+}
+
+.item5 .text {
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+    font-size: 13px;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.item6 {
+    width: 100vw;
+    background: url(../images/助力者的收益3+1+1\ bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.item6 .title {
+    text-align: center;
+    margin: 30px auto 0;
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 45px;
+}
+
+.item6 .imgBox {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item6 .imgBox .left {
+    height: 40px;
+    width: 50%;
+    text-align: right;
+    font-size: 13px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding-right: 10px;
+}
+
+.item6 .imgBox .right {
+    padding-top: 7px;
+    height: 40px;
+    width: 50%;
+    padding-left: 10px;
+}
+.item6 .imgBox .right .img1 {
+    height: 26px;
+    width: 100%;
+    background: url(../images/beifen1.png) no-repeat;
+    background-size: auto 100%;
+    ;
+}
+.item6 .imgBox .right .img2 {
+    height: 26px;
+    width: 100%;
+    background: url(../images/beifen2.png) no-repeat;
+    background-size: auto 100%;
+    ;
+}
+.item6 .imgBox .right .img3 {
+    height: 26px;
+    width: 100%;
+    background: url(../images/beifen3.png) no-repeat;
+    background-size: auto 100%;
+    ;
+}
+.item6 .imgBox .right .img4 {
+    height: 26px;
+    width: 100%;
+    background: url(../images/beifen4.png) no-repeat;
+    background-size: auto 100%;
+    ;
+}
+.item6 .imgBox .right .img5 {
+    height: 26px;
+    width: 100%;
+    background: url(../images/beifen4.png) no-repeat;
+    background-size: auto 100%;
+    ;
+}
+
+.item6 .imgBox1{
+    margin-bottom: 30px;
+}
+.item4 {
+    background: rgba(226, 230, 248, 1);
+    overflow: hidden;
+}
+
+.item4 .img {
+    width: 60vw;
+    height: 60vw;
+    background: url(../images/收集表.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 20px auto;
+}
+
+.item4 .text {
+    text-align: center;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(53, 74, 155, 1);
+    line-height: 22px;
+}
+.item4 .text2 {
+    width: 60%;
+    margin: 10px auto ;
+    text-align: center;
+    font-size: 13px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(53, 74, 155, 1);
+    line-height: 16px;
+}
+.item4 .button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(47, 75, 161, 1);
+    border-radius: 5px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}

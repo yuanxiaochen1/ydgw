@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css?v=1.0">
+    <link rel="stylesheet" href="css/userSolves.css?v=1.0">
+    <link rel="stylesheet" href="css/nav.css?v=1.0">
+    <link rel="stylesheet" href="css/footer.css?v=1.0">
+    <title>弦子科技</title>
+</head>
+
+<body>
+    <div class="package">
+        <div class="item1">
+            个人用户解决方案
+        </div>
+        <div class="item2">
+            <div class="videoBox">
+                <img src="./images/videoImg.png" alt="" id="imgBG1">
+                <img src="./images/bofagn.png" alt="" id="buttom1">
+                <video src="https://shopimg.stringon.com/shop.mp4" id="video1"></video>
+            </div>
+            <div class="videoBG"></div>
+            <div class="title">物影工厂&物影钱包</div>
+            <div class="text">使用弦子为网络小额销售的个人提供的更加实用便捷的销售工具，解决个人用户因为没有线上商城或者没有条件入住电商平台而限制自己的生意的问题。</div>
+        </div>
+        <div class="item3">
+            <div class="title">开启个人用户之旅</div>
+            <div class="imgBox">
+                <div class="img1"><img src="./images/solveLogo1.png" alt=""><div>微信扫码进入“物影工厂”</div></div>
+                <div class="img2"><img src="./images/solveLogo2.png" alt=""><div>微信扫码进入“物影钱包”</div></div>
+            </div>
+        </div>
+        <div class="item4">
+            <div class="img"></div>
+            <div class="text">个人用户信息收集表</div>
+            <a class="button" href="http://stringon.mikecrm.com/7dgYhy7">了解更多&nbsp;></a>
+        </div>
+        <div class="footer">
+                <dl class="index_footer_bav">
+                    <dt>导航</dt>
+                    <dd> <a href="./index.html">首页</a></dd>
+                    <dd><a href="./weaver.html">WEAVER </a></dd>
+                    <dd><a href="./abchain.html">ABCHAIN</a></dd>
+                </dl>
+                <dl class="index_footer_bav bav1">
+                    <dt>关于</dt>
+                    <dd><a href="./about.html">关于弦子</a></dd>
+                    <dd><a href="./news.html">新闻动态</a></dd>
+                    <dd><a href="./addUs.html">加入我们</a></dd>
+                </dl>
+                <div class="imgBox">
+                    <img src="./images/二维码.png" alt="" class="img1">
+                    <img src="images/home@2x.png" alt="" class="img2">
+                </div>
+                <div class="footer_text">© 2019-2020 Stringon.All Rights Reserved. </div>
+            </div>
+        <!-- <div class="footer">
+            <img src="images/home@2x.png" alt="">
+            <div>Copyright © 2019 Stringon.com</div>
+        </div> -->
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script>
+        let video1 = document.querySelector('#video1');
+        let videoBottom1 = document.querySelector('#buttom1');
+        let imgBG1 = document.querySelector('#imgBG1');
+        videoBottom1.onclick = function () {
+            videoBottom1.style.display = 'none';
+            imgBG1.style.display = 'none';
+            video1.play();
+            video1.setAttribute('controls', 'true');
+        }
+    </script>
+</body>
+
+</html>

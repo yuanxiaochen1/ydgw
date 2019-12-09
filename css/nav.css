@@ -1,11 +1,16 @@
 .nav{
   width: 100%;
   /* min-height: 60px; */
-  height: 8vh;
+  height: 7vh;
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
   align-items: center;
   justify-content: space-between;
   border-bottom:1px solid rgba(228,232,248,1);
+  background: #FFFFFF;
 }
 .navbar-header, .nav-ico{
   height: 38%;
@@ -42,7 +47,7 @@
 }
 .mask-nav{
   display: none;
-  top: 8vh;
+  top: 7vh;
   background:#FFFFFF;
 }
 .mask-nav ul{

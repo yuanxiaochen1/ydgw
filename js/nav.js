@@ -2,8 +2,8 @@ $(function () {
     var str = '<div class="mask-nav" id="mask-nav">' +
         '<ul>' +
         '<a href="index.html" rel="externa">首页</a>' +
-        '<a href="news.html" rel="externa">WEAVER</a>' +
-        '<a href="about.html" rel="externa">ABCHAIN</a>' +
+        '<a href="weaver.html" rel="externa">WEAVER</a>' +
+        '<a href="abchain.html" rel="externa">ABCHAIN</a>' +
         '<a href="news.html" rel="externa">新闻动态</a>' +
         '<a href="about.html" rel="externa">关于弦子</a>' +
         '<a href="addUs.html" rel="externa">加入我们</a>' +

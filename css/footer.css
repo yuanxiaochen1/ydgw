@@ -1,9 +1,9 @@
 .footer{
   width: 100%;
-  background:rgba(255,255,255,1);
+  background:rgba(255,255,255,1) !important;
   min-height: 50px;
   float: left;
-  position: relative;
+  position: relative !important;
 }
 
 .index_footer_bav {

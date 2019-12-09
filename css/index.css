@@ -6,7 +6,54 @@
 
 }
 
+#mask {
+  position: fixed;
+  top: 7vh;
+  left: 0;
+  width: 100vw;
+  height: 92vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 15000;
+}
+
+#mask .imgBox {
+  height: 75vw;
+  width: 60vw;
+  margin: 50vw auto 0;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+#mask .imgBox img {
+  display: block;
+  height: 60vw;
+  width: 60vw;
+}
+#close{
+  margin-top: 15px;
+  display: flex;
+  justify-content:space-around;
+}
+#close a {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 20px;
+}
+#button2{
+  color:rgba(47,75,161,1) !important;
+}
+.absolute {
+  position: absolute;
+}
+
 .item1 {
+  margin-top: 7vh;
   width: 100vw;
   height: 92vh;
 }
@@ -89,22 +136,18 @@
 
 .swiper-slide .img1 {
   position: absolute;
-  height: 15vh;
-  width: 20.5vw;
-  top: 3vh;
+  height: 24vw;
+  width: 24vw;
+  top: 5vh;
   left: 0;
-  background: white;
-  opacity: 0.1;
 }
 
 .swiper-slide .img2 {
   position: absolute;
-  height: 15vh;
+  height: 24vw;
   width: 24vw;
-  top: 18vh;
+  top: 20vh;
   left: 53.5vw;
-  background: white;
-  opacity: 0.1;
 }
 
 .slider1 .img {
@@ -281,34 +324,34 @@
 }
 
 .slider2 {
-  background: url(../images/img01.png) no-repeat;
+  background: url(../images/banner2.png) no-repeat;
   background-size: 100% 100%;
 }
 
 .slider3 {
-  background: url(../images/img01.png) no-repeat;
+  background: url(../images/banner3.png) no-repeat;
   background-size: 100% 100%;
 }
 
 .slider4 {
-  background: url(../images/img01.png) no-repeat;
+  background: url(../images/banner4.png) no-repeat;
   background-size: 100% 100%;
 }
 
 .slider5 {
-  background: url(../images/img01.png) no-repeat;
+  background: url(../images/banner5.png) no-repeat;
   background-size: 100% 100%;
 }
 
 .slider6 {
-  background: url(../images/img06.png) no-repeat;
+  background: url(../images/banner6.png) no-repeat;
   background-size: 100% 100%;
 }
 
 .item2 {
   width: 100vw;
   height: 100vh;
-  background: url(../images/img06.png) no-repeat;
+  background: url(../images/img_2.png) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -340,7 +383,7 @@
 .item3 {
   width: 100vw;
   height: 100vh;
-  background: url(../images/img06.png) no-repeat;
+  background: url(../images/img_3.png) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -389,7 +432,7 @@
 .item4 {
   width: 100vw;
   height: 100vh;
-  background: url(../images/img06.png) no-repeat;
+  background: url(../images/img_4.png) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -421,7 +464,7 @@
 .item5 {
   width: 100vw;
   height: 100vh;
-  background: url(../images/img06.png) no-repeat;
+  background: url(../images/img_5.png) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -453,7 +496,7 @@
 .item6 {
   width: 100vw;
   height: 100vh;
-  background: url(../images/img06.png) no-repeat;
+  background: url(../images/img_6.png) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -528,6 +571,7 @@
   margin-right: 2px;
   margin-bottom: 2px;
 }
+
 .item7 .index_companyList li img {
   left: 0;
   position: absolute;

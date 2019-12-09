@@ -1,0 +1,312 @@
+.package {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+
+}
+
+.item1 {
+    margin-top: 7vh;
+    width: 100vw;
+    background:url(../images/企业bg.png) no-repeat;
+    background-size: 100% 100%;
+    height: 40vw;
+    font-size: 28px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    line-height: 46vw;
+}
+
+.item2 {
+    width: 100vw;
+    background: rgba(226, 230, 248, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.item2 .videoBox {
+    position: absolute;
+    width: 64vw;
+    height: 19vh;
+    z-index: 10;
+    top: 40px;
+    left: 18vw;
+}
+
+.item2 .videoBox #buttom1 {
+    position: absolute;
+    width: 11vw;
+    height: 11vw;
+    z-index: 999;
+    top: 6vh;
+    left: 26.5vw;
+}
+
+.item2 .videoBox #imgBG1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.item2 .videoBox video {
+    width: 64vw;
+    height: 19vh;
+    display: block;
+}
+
+.item2 .videoBG {
+    box-sizing: border-box;
+    position: absolute;
+    width: 64vw;
+    height: 19vh;
+    opacity: 0.3;
+    border: 3px solid rgba(0, 0, 0, 0.14);
+    z-index: 1;
+    top: 55px;
+    left: 22vw;
+}
+
+.item2 .title {
+    text-align: center;
+    margin: 28vh auto 0;
+    font-size: 18px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 45px;
+}
+
+.item2 .text {
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+    font-size: 13px;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.item3 {
+    width: 100vw;
+    background: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+.item3 .title {
+    text-align: center;
+    margin: 40px auto 0;
+    font-size: 18px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+}
+
+.item3 .imgBox1 {
+    width: 50vw;
+    height: 17.5vw;
+    background: #19858C;
+    margin: 30px auto 0;
+    position: relative;
+}
+
+.item3 .imgBox1 .img1 {
+    position: absolute;
+    display: block;
+    height: 11vw;
+    width: 11vw;
+    top: 3.25vw;
+    left: 3.5vw;
+}
+
+.item3 .imgBox1 .BG1 {
+    background: url(../images/XCXBG.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    width: 33%;
+}
+
+.item3 .imgBox1 .title1 {
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    font-size: 15px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18px;
+}
+
+.item3 .imgBox1 .text1 {
+    display: block;
+    position: absolute;
+    right: 8%;
+    top: 58%;
+    font-size: 9px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 12px;
+}
+
+.item3 .imgBox2 {
+    width: 50vw;
+    height: 17.5vw;
+    background: #63609B;
+    margin: 18px auto 0;
+    position: relative;
+}
+
+.item3 .imgBox2 .img2 {
+    position: absolute;
+    display: block;
+    height: 11vw;
+    width: 11vw;
+    top: 3.25vw;
+    left: 3.5vw;
+}
+
+.item3 .imgBox2 .BG2 {
+    background: url(../images/WYQBBG.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    width: 33%;
+}
+
+.item3 .imgBox2 .title2 {
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    font-size: 15px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18px;
+}
+
+.item3 .imgBox2 .text2 {
+    display: block;
+    position: absolute;
+    right: 8%;
+    top: 58%;
+    font-size: 9px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 12px;
+}
+
+.item3 .imgBox3 {
+    width: 50vw;
+    height: 17.5vw;
+    background: #4F7DB6;
+    margin: 18px auto 0;
+    position: relative;
+}
+
+.item3 .imgBox3 .img3 {
+    position: absolute;
+    display: block;
+    height: 11vw;
+    width: 11vw;
+    top: 3.25vw;
+    left: 3.5vw;
+}
+
+.item3 .imgBox3 .BG3 {
+    background: url(../images/bg物影工厂.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    width: 33%;
+}
+
+.item3 .imgBox3 .title3 {
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    font-size: 15px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18px;
+}
+
+.item3 .imgBox3 .text3 {
+    position: absolute;
+    display: block;
+    right: 8%;
+    top: 58%;
+    font-size: 9px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 12px;
+}
+
+.item3 .text {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(53, 74, 155, 1);
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.item4 {
+    background: rgba(226, 230, 248, 1);
+    overflow: hidden;
+}
+
+.item4 .img {
+    width: 60vw;
+    height: 60vw;
+    background: url(../images/收集表.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 20px auto;
+}
+
+.item4 .text {
+    text-align: center;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(53, 74, 155, 1);
+    line-height: 22px;
+}
+
+.item4 .button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(47, 75, 161, 1);
+    border-radius: 5px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}

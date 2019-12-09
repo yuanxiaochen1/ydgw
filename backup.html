@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css?v=1.0">
+    <link rel="stylesheet" href="css/backup.css?v=1.0">
+    <link rel="stylesheet" href="css/nav.css?v=1.0">
+    <link rel="stylesheet" href="css/footer.css?v=1.0">
+    <title>弦子科技</title>
+</head>
+
+<body>
+    <div class="package">
+        <div class="item1">
+            流量达人计划
+        </div>
+        <div class="item2">
+            <div class="videoBox">
+                <img src="./images/videoImg.png" alt="" id="imgBG1">
+                <img src="./images/bofagn.png" alt="" id="buttom1">
+                <video src="https://shopimg.stringon.com/shop.mp4" id="video1"></video>
+            </div>
+            <div class="videoBG"></div>
+            <div class="title">流量达人介绍视频</div>
+            <div class="text">借助弦子的数字商铺网络，解决流量达人有流量却没有好的商家商品可推荐导致无法变现或变现不足的问题。</div>
+        </div>
+        <div class="item4">
+            <div class="img"></div>
+            <div class="text">流量达人信息收集表</div>
+            <a class="button" href="http://stringon.mikecrm.com/5FGmJBl">了解更多&nbsp;></a>
+        </div>
+        <div class="footer">
+                <dl class="index_footer_bav">
+                    <dt>导航</dt>
+                    <dd> <a href="./index.html">首页</a></dd>
+                    <dd><a href="./weaver.html">WEAVER </a></dd>
+                    <dd><a href="./abchain.html">ABCHAIN</a></dd>
+                </dl>
+                <dl class="index_footer_bav bav1">
+                    <dt>关于</dt>
+                    <dd><a href="./about.html">关于弦子</a></dd>
+                    <dd><a href="./news.html">新闻动态</a></dd>
+                    <dd><a href="./addUs.html">加入我们</a></dd>
+                </dl>
+                <div class="imgBox">
+                    <img src="./images/二维码.png" alt="" class="img1">
+                    <img src="images/home@2x.png" alt="" class="img2">
+                </div>
+                <div class="footer_text">© 2019-2020 Stringon.All Rights Reserved. </div>
+            </div>
+        <!-- <div class="footer">
+            <img src="images/home@2x.png" alt="">
+            <div>Copyright © 2019 Stringon.com</div>
+        </div> -->
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script>
+        let video1 = document.querySelector('#video1');
+        let videoBottom1 = document.querySelector('#buttom1');
+        let imgBG1 = document.querySelector('#imgBG1');
+        videoBottom1.onclick = function () {
+            videoBottom1.style.display = 'none';
+            imgBG1.style.display = 'none';
+            video1.play();
+            video1.setAttribute('controls', 'true');
+        }
+    </script>
+</body>
+
+</html>
