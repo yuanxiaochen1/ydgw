@@ -152,20 +152,18 @@
 
 .slider1 .img {
   position: absolute;
+  display: block;
   width: 90px;
   height: 90px;
-  background: url(../images/wing_xcx.png) no-repeat;
-  background-size: 100% 100%;
   bottom: 14vh;
   right: 3vw;
 }
 
 .slider2 .img {
   position: absolute;
+  display: block;
   width: 90px;
   height: 90px;
-  background: url(../images/wing_xcx.png) no-repeat;
-  background-size: 100% 100%;
   bottom: 14vh;
   right: 3vw;
 }
@@ -310,10 +308,9 @@
 
 .slider6 .img {
   position: absolute;
+  display: block;
   width: 90px;
   height: 90px;
-  background: url(../images/位图@2x.png) no-repeat;
-  background-size: 100% 100%;
   bottom: 14vh;
   right: 3vw;
 }
