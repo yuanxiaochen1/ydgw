@@ -1,7 +1,7 @@
 .package {
     width: 100%;
     height: 100%;
-    overflow-y: auto;
+   
     position: relative;
 
 }
@@ -17,7 +17,7 @@
     font-weight: 400;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    line-height: 46vw;
+    line-height: 40vw;
 }
 
 .item2 {
@@ -74,7 +74,7 @@
 
 .item2 .title {
     text-align: center;
-    margin: 28vh auto 0;
+    margin: 58vw auto 0;
     font-size: 18px;
     font-family: PingFangSC-Medium, PingFang SC;
     font-weight: 500;
@@ -107,47 +107,53 @@
     line-height: 22px;
     margin-top: 40px;
 }
-.item3 .imgBox{
+
+.item3 .imgBox {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 30px;
     margin-bottom: 40px;
 }
-.item3 .imgBox .img1{
+
+.item3 .imgBox .img1 {
     text-align: center;
-    font-size:6px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
-    color:rgba(0,0,0,0.85);
-    line-height:15px;
-    letter-spacing:1px;
+    font-size: 11px;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 15px;
+    letter-spacing: 1px;
     width: 33vw;
     margin-right: 60px;
 }
-.item3 .imgBox .img1 img{
+
+.item3 .imgBox .img1 img {
     display: block;
     margin: 0 auto;
     height: 33vw;
     width: 33vw;
     margin-bottom: 10px;
 }
-.item3 .imgBox .img2{
+
+.item3 .imgBox .img2 {
     text-align: center;
-    font-size:6px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
-    color:rgba(0,0,0,0.85);
-    line-height:15px;
-    letter-spacing:1px;
+    font-size: 11px;
+    font-family: PingFangSC-Light, PingFang SC;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 15px;
+    letter-spacing: 1px;
     width: 33vw;
 }
-.item3 .imgBox .img2 img{
+
+.item3 .imgBox .img2 img {
     display: block;
     margin: 0 auto;
     height: 33vw;
     width: 33vw;
     margin-bottom: 10px;
 }
+
 .item4 {
     background: rgba(226, 230, 248, 1);
     overflow: hidden;
@@ -186,4 +192,29 @@
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item4 .button p {
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    letter-spacing: 1px;
+    max-height: 32px;
+    margin: 0;
+    margin-right: 2px;
+}
+
+.item4 .button i {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(../images/164e651c92322943b9453d0651b63fd6.svg) no-repeat;
+    background-size: 100% 100%;
 }

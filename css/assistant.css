@@ -1,7 +1,7 @@
 .package {
     width: 100%;
     height: 100%;
-    overflow-y: auto;
+   
     position: relative;
 
 }
@@ -17,12 +17,12 @@
     font-weight: 400;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    line-height: 46vw;
+    line-height: 40vw;
 }
 
 .item2 {
     width: 100vw;
-    height: 60vw;
+    height: 66vw;
     background: url(../images/assistant1.png) no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -40,6 +40,7 @@
 }
 
 .item2 .text {
+    text-align: center;
     padding: 0 10vw;
     margin-bottom: 5vh;
     font-size: 13px;
@@ -52,7 +53,7 @@
 
 .item3 {
     width: 100vw;
-    height: 60vw;
+    height: 66vw;
     background: url(../images/assitant2.png) no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -70,6 +71,7 @@
 }
 
 .item3 .text {
+    text-align: center;
     padding: 0 10vw;
     margin-bottom: 5vh;
     font-size: 13px;
@@ -82,7 +84,7 @@
 
 .item5 {
     width: 100vw;
-    height: 60vw;
+    height: 66vw;
     background: url(../images/assistant3.png) no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -101,6 +103,7 @@
 
 .item5 .text {
     padding: 0 10vw;
+    text-align: center;
     margin-bottom: 5vh;
     font-size: 13px;
     font-family: PingFangSC-Light, PingFang SC;
@@ -112,6 +115,7 @@
 
 .item6 {
     width: 100vw;
+    height: 66vw;
     background: url(../images/助力者的收益3+1+1\ bg.png) no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -128,7 +132,57 @@
     line-height: 45px;
 }
 
-.item6 .imgBox {
+.item6 .box {
+    width: 60%;
+    height: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.item6 .box .item {
+    width: 6vw;
+    height: 100%;
+    display: flex;
+    flex-direction:column-reverse;
+}
+.item6 .box .item .img1{
+    display: block;
+    width: 100%;
+    height: 11.5vw;
+    margin-top: 25px;
+}
+.item6 .box .item .img2{
+    display: block;
+    width: 4vw;
+    height: 4vw;
+    margin: 0 auto;
+}
+.item6 .box .item .img3{
+    display: block;
+    width: 100%;
+    height: 21vw;
+    margin-top: 15px;
+}
+.item6 .box .item .img4{
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    margin: 0 auto;
+}.item6 .box .item .img5{
+    display: block;
+    width: 100%;
+    height: 32.5vw;
+    margin-top: 10px;
+}
+.item6 .box .item .img6{
+    display: block;
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+}
+/* .item6 .imgBox {
     height: 40px;
     width: 100%;
     display: flex;
@@ -192,7 +246,7 @@
 
 .item6 .imgBox1{
     margin-bottom: 30px;
-}
+} */
 .item4 {
     background: rgba(226, 230, 248, 1);
     overflow: hidden;
@@ -214,9 +268,10 @@
     color: rgba(53, 74, 155, 1);
     line-height: 22px;
 }
+
 .item4 .text2 {
     width: 60%;
-    margin: 10px auto ;
+    margin: 10px auto;
     text-align: center;
     font-size: 13px;
     font-family: PingFangSC-Regular, PingFang SC;
@@ -224,6 +279,7 @@
     color: rgba(53, 74, 155, 1);
     line-height: 16px;
 }
+
 .item4 .button {
     display: block;
     width: 120px;
@@ -240,4 +296,28 @@
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item4 .button p {
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    letter-spacing: 1px;
+    max-height: 32px;
+    margin: 0;
+    margin-right: 2px;
+}
+
+.item4 .button i {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(../images/164e651c92322943b9453d0651b63fd6.svg) no-repeat;
+    background-size: 100% 100%;
 }

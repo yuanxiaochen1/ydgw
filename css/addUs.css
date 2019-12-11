@@ -1,7 +1,7 @@
 .package{
   width: 100%;
   height: 100%;
-  overflow: auto;
+
 }
 .content{
   margin-top: 8vh;
@@ -10,9 +10,10 @@
   background: #FFFFFF;
 }
 .wrap_title{
+  background: #EDEFF7;
   text-align: center;
   background: #EDEFF7;
-  height: 50px;
+  height:  40vw;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -20,29 +21,36 @@
   align-items: center;
 }
 .wrap_title h2{
-  font-size:16px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
   font-weight:400;
   color:rgba(0,0,0,0.85);
   position: absolute;
 }
 .wrap_title img{
-  height: 100%;
+  height: 16vw;
+  width: 30.5vw;
 }
 .wrap_list{
-  padding: 10px 20px;
+  width: 92vw;
+  margin: 0 auto;
+  padding: 10px 0;
   border-bottom: #D7D9E1 solid 1px;
 }
 .wrap_list h2{
-  font-size:12px;
-  font-weight:400;
-  color:rgba(0,0,0,0.85);
+  font-size:16px;
+font-family:PingFangSC-Regular,PingFang SC;
+font-weight:400;
+color:rgba(0,0,0,0.85);
   text-align: left;
   padding-bottom: 8px;
 }
 .wrap_list p{
-  font-size:8px;
+  font-size:13px;
+  font-family:PingFangSC-Regular,PingFang SC;
   font-weight:400;
   color:rgba(0,0,0,0.85);
+  letter-spacing: 1px;
 }
 .footer{
   background: #EDEFF7;

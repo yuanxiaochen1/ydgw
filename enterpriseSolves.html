@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css?v=1.0">
-    <link rel="stylesheet" href="css/enterpriseSolves.css?v=1.0">
-    <link rel="stylesheet" href="css/nav.css?v=1.0">
-    <link rel="stylesheet" href="css/footer.css?v=1.0">
+    <link rel="stylesheet" href="css/main.css?v=2.0">
+    <link rel="stylesheet" href="css/enterpriseSolves.css?v=2.0">
+    <link rel="stylesheet" href="css/nav.css?v=2.0">
+    <link rel="stylesheet" href="css/footer.css?v=2.0">
     <title>弦子科技</title>
 </head>
 
@@ -21,7 +21,8 @@
             <div class="videoBox">
                 <img src="./images/videoImg.png" alt="" id="imgBG1">
                 <img src="./images/bofagn.png" alt="" id="buttom1">
-                <video src="https://shopimg.stringon.com/shop.mp4" id="video1"></video>
+                <video src="https://shopimg.stringon.com/shop.mp4" id="video1" controls
+                poster="./images/videoImg.png"></video>
             </div>
             <div class="videoBG"></div>
             <div class="title">数字商铺网络</div>
@@ -39,7 +40,7 @@
                 <img src="./images/WYQB.png" alt="" class="img2">
                 <div class="BG2"></div>
                 <div class="title2">物影钱包</div>
-                <a class="text2" href="./wing.html">去注册 &nbsp;＞</a>
+                <a class="text2" href="./m.wing.html">去注册 &nbsp;＞</a>
             </div>
             <div class="imgBox3">
                 <img src="./images/WYGC.png" alt="" class="img3">
@@ -52,21 +53,27 @@
         <div class="item4">
             <div class="img"></div>
             <div class="text">企业用户信息收集表</div>
-            <a class="button" href="http://stringon.mikecrm.com/cGO1o3f" >获取工具&nbsp;＞</a>
+            <a class="button" href="http://stringon.mikecrm.com/cGO1o3f" ><p>获取工具</p><i></i></a>
         </div>
         <div class="footer">
                 <dl class="index_footer_bav">
                     <dt>导航</dt>
                     <dd> <a href="./index.html">首页</a></dd>
-                    <dd><a href="./weaver.html">WEAVER </a></dd>
                     <dd><a href="./abchain.html">ABCHAIN</a></dd>
                 </dl>
-                <dl class="index_footer_bav bav1">
+                <dl class="index_footer_bav">
                     <dt>关于</dt>
                     <dd><a href="./about.html">关于弦子</a></dd>
                     <dd><a href="./news.html">新闻动态</a></dd>
                     <dd><a href="./addUs.html">加入我们</a></dd>
+                    <dd><a href="./aboutUs.html">联系我们</a></dd>
                 </dl>
+                <dl class="index_footer_bav bav1">
+                        <dt>链接</dt>
+                       <dd><a href="https://discoverer.stringon.com/">区块链浏览器</a></dd>
+                        <dd><a href="./m.wing.html">物影钱包</a></dd>
+                        <dd><a href="./factory.html">物影工厂</a></dd>
+                    </dl>
                 <div class="imgBox">
                     <img src="./images/二维码.png" alt="" class="img1">
                     <img src="images/home@2x.png" alt="" class="img2">
@@ -91,6 +98,12 @@
             video1.play();
             video1.setAttribute('controls', 'true');
         }
+        $(document).find('video').attr({
+            'x5-video-player-type': 'h5-page',
+            "style": "object-fit:fill",
+            'playsinline':"true",
+            "preload":"auto"
+        })
     </script>
 </body>
 

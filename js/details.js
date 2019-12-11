@@ -18,17 +18,19 @@ $(function(){
     document.getElementById('time').innerHTML = data.time || '0000-00-00';
     document.getElementById('describe').innerHTML = data.describe || describe;
     $('#video').attr("src", data.src);
-    $(".menuIco").click(function(){
-        $('#video').hide();
-    });
-    $(".closeIco").click(function(){
-        $('#video').show();
-    });
-    if(document.body.clientHeight > $(".content").height()+110){
-        $('.footer').css("position","fixed");
-        $('.footer').css("bottom","0");
-    }else{
-        $('.footer').css("position","");
-        $('.footer').css("bottom","");
+    let video1 = document.querySelector('#video');
+    let videoBottom1 = document.querySelector('#buttom1');
+    let imgBG1 = document.querySelector('#imgBG1');
+    videoBottom1.onclick = function () {
+        videoBottom1.style.display = 'none';
+        imgBG1.style.display = 'none';
+        video1.play();
+        video1.setAttribute('controls', 'true');
     }
+    $(document).find('video').attr({
+        'x5-video-player-type': 'h5-page',
+        "style": "object-fit:fill",
+        'playsinline': "true",
+        "preload": "auto"
+    }).trigger('play');
 })

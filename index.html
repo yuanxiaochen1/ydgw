@@ -1,134 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="IGNORE.manifest">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css?v=1.0">
-    <link rel="stylesheet" href="css/index.css?v=1.0">
-    <link rel="stylesheet" href="css/nav.css?v=1.0">
-    <link rel="stylesheet" href="css/footer.css?v=1.0">
-    <link rel="stylesheet" href="css/swiper.min.css?v=1.0">
+    <link rel="stylesheet" href="css/main.css?v=2.0">
+    <link rel="stylesheet" href="css/index.css?v=2.0">
+    <link rel="stylesheet" href="css/nav.css?v=2.0">
+    <link rel="stylesheet" href="css/footer.css?v=2.0">
+    <link rel="stylesheet" href="css/swiper.min.css?v=2.0">
     <title>弦子科技</title>
 </head>
 
 <body>
     <div class="package">
         <div id="mask" style="display: none;">
-            <div class="imgBox"><img src="./images/1-1@1x.png" />
+            <div class="maskBox"><img src="./images/1-1@1x.png" />
                 <div id="close"><a href="javascript:;" id="button1">关闭</a>|
                     <a href="javascript:;" id="button2">保存到相册</a></div>
             </div>
         </div>
-
-        <div class="swiper-container item1" id="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slider1">
-                    <p>区块链技术加持</p>
-                    <img src="./images/shangDou.png" alt="" class="img1">
-                    <img src="./images/xiaDou.png" alt="" class="img2">
-                    <h3>新世界 新生意<br>新工具 新协作 </h3>
-                    <img class="img" src="./images/wing_xcx.png"></img>
-                    <span>让商业更透明 让价值更流动</span>
-                </div>
-                <div class="swiper-slide slider2">
-                    <p>区块链技术加持</p>
-                    <img src="./images/shangDou.png" alt="" class="img1">
-                    <img src="./images/xiaDou.png" alt="" class="img2">
-                    <h3>商品数字化 <br>让您的商品穿透全网</h3>
-                    <img src="./images/wing_xcx.png" class="img"></img>
-                    <span>让商业更透明 让价值更流动</span>
-
-                    <div class="videoBox">
-                        <img src="./images/videoImg.png" alt="" id="imgBG1">
-                        <img src="./images/bofagn.png" alt="" id="buttom1">
-                        <video src="https://shopimg.stringon.com/matrix.mp4" id="video1"></video>
+        <div class="item1">
+            <div class="swiper-container" id="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider1">
+                        <p>区块链技术加持</p>
+                        <img src="./images/shangDou.png" alt="" class="img1">
+                        <img src="./images/xiaDou.png" alt="" class="img2">
+                        <h3>新世界 新生意<br>新工具 新协作 </h3>
+                        <img class="img" src="./images/wing_xcx.png"></img>
+                        <span>让商业更透明 让价值更流动</span>
                     </div>
-                    <div class="videoBG"></div>
-                </div>
-                <div class="swiper-slide slider3">
-                    <p>区块链技术加持</p>
-                    <img src="./images/shangDou.png" alt="" class="img1">
-                    <img src="./images/xiaDou.png" alt="" class="img2">
-                    <h3>为社交而购物<br>用购物来社交</h3>
-                    <span>让商业更透明 让价值更流动</span>
+                    <div class="swiper-slide slider2">
+                        <p>区块链技术加持</p>
+                        <img src="./images/shangDou.png" alt="" class="img1">
+                        <img src="./images/xiaDou.png" alt="" class="img2">
+                        <h3>商品数字化 <br>让您的商品穿透全网</h3>
+                        <img src="./images/solveLogo2.png" class="img"></img>
+                        <span>让商业更透明 让价值更流动</span>
 
-                    <div class="videoBox">
-                        <img src="./images/videoImg.png" alt="" id="imgBG2">
-                        <img src="./images/bofagn.png" alt="" id="buttom2">
-                        <video src="https://shopimg.stringon.com/shop.mp4" id="video2"></video>
+                        <div class="videoBox">
+                            <img src="./images/videoImg.png" alt="" id="imgBG1" class="videobg">
+                            <img src="./images/bofagn.png" alt="" id="buttom1" class="videoButton">
+                            <video src="https://shopimg.stringon.com/matrix.mp4" id="video1"
+                                poster="./images/videoImg.png"></video>
+                        </div>
+                        <div class="videoBG"></div>
                     </div>
-                    <div class="videoBG"></div>
-                </div>
-                <div class="swiper-slide slider4">
-                    <p>区块链技术加持</p>
-                    <img src="./images/shangDou.png" alt="" class="img1">
-                    <img src="./images/xiaDou.png" alt="" class="img2">
-                    <h3>送钱太俗 <br />送礼才真</h3>
-                    <span>让商业更透明 让价值更流动</span>
+                    <div class="swiper-slide slider3">
+                        <p>区块链技术加持</p>
+                        <img src="./images/shangDou.png" alt="" class="img1">
+                        <img src="./images/xiaDou.png" alt="" class="img2">
+                        <h3>为社交而购物<br>用购物来社交</h3>
+                        <span>让商业更透明 让价值更流动</span>
 
-                    <div class="videoBox">
-                        <img src="./images/videoImg.png" alt="" id="imgBG3">
-                        <img src="./images/bofagn.png" alt="" id="buttom3">
-                        <video src="https://shopimg.stringon.com/shouji.mp4" id="video3"></video>
+                        <div class="videoBox">
+                            <img src="./images/videoImg.png" alt="" id="imgBG2" class="videobg">
+                            <img src="./images/bofagn.png" alt="" id="buttom2" class="videoButton">
+                            <video src="https://shopimg.stringon.com/shop.mp4" id="video2" controls
+                                poster="./images/videoImg.png"></video>
+                        </div>
+                        <div class="videoBG"></div>
                     </div>
-                    <div class="videoBG"></div>
+                    <div class="swiper-slide slider4">
+                        <p>区块链技术加持</p>
+                        <img src="./images/shangDou.png" alt="" class="img1">
+                        <img src="./images/xiaDou.png" alt="" class="img2">
+                        <h3>送钱太俗 <br />送礼才真</h3>
+                        <span>让商业更透明 让价值更流动</span>
+
+                        <div class="videoBox">
+                            <img src="./images/videoImg.png" alt="" id="imgBG3" class="videobg">
+                            <img src="./images/bofagn.png" alt="" id="buttom3" class="videoButton">
+                            <video src="https://shopimg.stringon.com/shouji.mp4" id="video3" controls
+                                poster="./images/videoImg.png"></video>
+                        </div>
+                        <div class="videoBG"></div>
+                    </div>
+                    <div class="swiper-slide slider5">
+                        <p>区块链技术加持</p>
+                        <img src="./images/shangDou.png" alt="" class="img1">
+                        <img src="./images/xiaDou.png" alt="" class="img2">
+                        <h3>打造“可信商品 <br>可信评价 可信数据”</h3>
+                        <span>让商业更透明 让价值更流动</span>
+                    </div>
+                    <div class="swiper-slide slider6">
+                        <p>区块链技术加持</p>
+                        <img src="./images/shangDou.png" alt="" class="img1">
+                        <img src="./images/xiaDou.png" alt="" class="img2">
+                        <h3>我们让您的生意<br>更简单 更红火</h3>
+                        <img class="img" src="./images/位图@2x.png"></img>
+                        <span>让商业更透明 让价值更流动</span>
+                    </div>
                 </div>
-                <div class="swiper-slide slider5">
-                    <p>区块链技术加持</p>
-                    <img src="./images/shangDou.png" alt="" class="img1">
-                    <img src="./images/xiaDou.png" alt="" class="img2">
-                    <h3>打造“可信商品 可信评价 可信数据”</h3>
-                    <span>让商业更透明 让价值更流动</span>
-                </div>
-                <div class="swiper-slide slider6">
-                    <p>区块链技术加持</p>
-                    <img src="./images/shangDou.png" alt="" class="img1">
-                    <img src="./images/xiaDou.png" alt="" class="img2">
-                    <h3>我们让您的生意<br>更简单 更红火</h3>
-                    <img class="img" src="./images/位图@2x.png"></img>
-                    <span>让商业更透明 让价值更流动</span>
-                </div>
+                <div class="swiper-pagination" id="swiper-pagination"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+                <div class="swiper-button-next swiper-button-white"></div>
+                <!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
             </div>
-            <div class="swiper-pagination" id="swiper-pagination"></div>
-            <div class="swiper-button-prev swiper-button-white"></div>
-            <!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
-            <div class="swiper-button-next swiper-button-white"></div>
-            <!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
         </div>
         <div class="item2">
             <div class="item2-title">价值网络解决方案</div>
             <p class="item2-text">
                 无论是巨型商业、亦或是小众经济，都可以通过弦子科技真实应用区块链技术服务于自己的商业。弦子帮助您呈现可信商品、可信数据，打造您的可信商誉；更让您的商业价值在新一代互联网上无阻流动。</p>
+            <img src="./images/241575945751_.pic.png" alt="" class="img">
+            <div class="text2">商务人员微信</div>
         </div>
         <div class="item3">
             <div class="item3-title">企业用户解决方案</div>
             <p class="item3-text">适用于企业法人、个体工商户、农村合作社等经济组织</p>
-            <a href="./enterpriseSolves.html" class="a">了解更多&nbsp;＞</a>
+            <a href="./enterpriseSolves.html" class="a">
+                <p>了解更多</p><i></i>
+            </a>
         </div>
         <div class="item4">
             <div class="item4-title">个人用户解决方案</div>
             <p class="item4-text">适用于销售自产农副产品、家庭手工业产品等小额网络交易的个人</p>
-            <a href="./userSolves.html" class="a">了解更多&nbsp;＞</a>
+            <a href="./userSolves.html" class="a">
+                <p>了解更多</p><i></i>
+            </a>
         </div>
         <div class="item5">
             <div class="item5-title">助力者计划</div>
             <p class="item5-text">助力者是与商家和弦子共同成长、共享收益的伙伴</p>
-            <a href="./assistant.html" class="a">了解更多&nbsp;＞</a>
+            <a href="./assistant.html" class="a">
+                <p>了解更多</p><i></i>
+            </a>
         </div>
         <div class="item6">
             <div class="item6-title">流量达人计划</div>
             <p class="item6-text">适用于具有社群、线上、线下流量资源的持有者</p>
-            <a href="./backup.html" class="a">了解更多&nbsp;></a>
+            <a href="./backup.html" class="a">
+                <p>了解更多</p><i></i>
+            </a>
         </div>
+        <div class="item8">
+                <div class="item8-title">区块链浏览器</div>
+                <p class="item8-text">追踪区块链上的一切流转信息</p>
+                <a href="https://discoverer.stringon.com/" class="a">
+                    <p>了解更多</p><i></i>
+                </a>
+            </div>
         <div class="item7">
             <div class="item7-title">合作伙伴</div>
             <p class="item7-text">助力者是与商家和弦子共同成长、共享收益的伙伴</p>
             <ul class="index_companyList clearfix">
                 <li><a href="javascript:;"><img src="./images/logo1.png" alt="" date-img='./images/1备份@1x.png'></a>
                 </li>
-                <li><a href="javascript:;"><img src="./images/logo2-1.png" alt="" date-img='./images/2备份@1x.png'></a></li>
+                <li><a href="javascript:;"><img src="./images/logo2-1.png" alt="" date-img='./images/2备份@1x.png'></a>
+                </li>
                 <li><a href="javascript:;"><img src="./images/logo3.png" alt="" date-img='./images/3备份@1x.png'></a>
                 </li>
                 <li><a href="javascript:;"><img src="./images/logo4.png" alt="" date-img='./images/4备份@1x.png'></a>
@@ -143,49 +165,75 @@
                 </li>
                 <li><a href="javascript:;"><img src="./images/logo9.png" alt="" date-img='./images/9备份@1x.png'></a>
                 </li>
-                <li><a href="javascript:;"><img src="./images/logo10.png" alt="" date-img='./images/10备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo11.png" alt="" date-img='./images/11备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo12.png" alt="" date-img='./images/12备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo13.png" alt="" date-img='./images/13备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo14.png" alt="" date-img='./images/14备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo15.png" alt="" date-img='./images/15备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo16.png" alt="" date-img='./images/16备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo17.png" alt="" date-img='./images/17备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo18.png" alt="" date-img='./images/18备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo19.png" alt="" date-img='./images/19备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo20.png" alt="" date-img='./images/20备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo21.png" alt="" date-img='./images/21备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo22.png" alt="" date-img='./images/22备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo23.png" alt="" date-img='./images/23备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo24.png" alt="" date-img='./images/24备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo25.png" alt="" date-img='./images/25备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo26.png" alt="" date-img='./images/26备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo27.png" alt="" date-img='./images/27备份@1x.png'></a></li>
-                <li><a href="javascript:;"><img src="./images/logo28.png" alt="" date-img='./images/28备份@1x.png'></a></li>
+                <li><a href="javascript:;"><img src="./images/logo10.png" alt="" date-img='./images/10备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo11.png" alt="" date-img='./images/11备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo12.png" alt="" date-img='./images/12备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo13.png" alt="" date-img='./images/13备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo14.png" alt="" date-img='./images/14备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo15.png" alt="" date-img='./images/15备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo16.png" alt="" date-img='./images/16备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo17.png" alt="" date-img='./images/17备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo18.png" alt="" date-img='./images/18备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo19.png" alt="" date-img='./images/19备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo20.png" alt="" date-img='./images/20备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo21.png" alt="" date-img='./images/21备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo22.png" alt="" date-img='./images/22备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo23.png" alt="" date-img='./images/23备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo24.png" alt="" date-img='./images/24备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo25.png" alt="" date-img='./images/25备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo26.png" alt="" date-img='./images/26备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo27.png" alt="" date-img='./images/27备份@1x.png'></a>
+                </li>
+                <li><a href="javascript:;"><img src="./images/logo28.png" alt="" date-img='./images/28备份@1x.png'></a>
+                </li>
                 <li><a href="javascript:;"><img src="./images/logo29.png" alt="" date-img='./images/29备份@1x.png'></a>
                 </li>
-                <li><a href="javascript:;"><img src="./images/logo30.png" alt="" date-img='./images/30备份@1x.png'></a></li>
+                <li><a href="javascript:;"><img src="./images/logo30.png" alt="" date-img='./images/30备份@1x.png'></a>
+                </li>
             </ul>
         </div>
         <div class="footer">
-            <dl class="index_footer_bav">
-                <dt>导航</dt>
-                <dd> <a href="./index.html">首页</a></dd>
-                <dd><a href="./weaver.html">WEAVER </a></dd>
-                <dd><a href="./abchain.html">ABCHAIN</a></dd>
-            </dl>
-            <dl class="index_footer_bav bav1">
-                <dt>关于</dt>
-                <dd><a href="./about.html">关于弦子</a></dd>
-                <dd><a href="./news.html">新闻动态</a></dd>
-                <dd><a href="./addUs.html">加入我们</a></dd>
-            </dl>
-            <div class="imgBox">
-                <img src="./images/二维码.png" alt="" class="img1">
-                <img src="images/home@2x.png" alt="" class="img2">
+                <dl class="index_footer_bav">
+                    <dt>导航</dt>
+                    <dd> <a href="./index.html">首页</a></dd>
+                    <dd><a href="./abchain.html">ABCHAIN</a></dd>
+                </dl>
+                <dl class="index_footer_bav">
+                    <dt>关于</dt>
+                    <dd><a href="./about.html">关于弦子</a></dd>
+                    <dd><a href="./news.html">新闻动态</a></dd>
+                    <dd><a href="./addUs.html">加入我们</a></dd>
+                    <dd><a href="./aboutUs.html">联系我们</a></dd>
+                </dl>
+                <dl class="index_footer_bav bav1">
+                        <dt>链接</dt>
+                       <dd><a href="https://discoverer.stringon.com/">区块链浏览器</a></dd>
+                        <dd><a href="./m.wing.html">物影钱包</a></dd>
+                        <dd><a href="./factory.html">物影工厂</a></dd>
+                    </dl>
+                <div class="imgBox">
+                    <img src="./images/二维码.png" alt="" class="img1">
+                    <img src="images/home@2x.png" alt="" class="img2">
+                </div>
+                <div class="footer_text">© 2019-2020 Stringon.All Rights Reserved. </div>
             </div>
-            <div class="footer_text">© 2019-2020 Stringon.All Rights Reserved. </div>
-        </div>
         <!-- <div class="footer">
             <img src="images/home@2x.png" alt="">
             <div>Copyright © 2019 Stringon.com</div>
@@ -197,28 +245,6 @@
     <script src="js/swiper.min.js"></script>
     <script src="js/nav.js"></script>
     <script>
-        var mySwiper = new Swiper('#swiper', {
-            autoplay: false,
-            loop: true,
-            // 如果需要分页器
-            pagination: {
-                el: '#swiper-pagination',
-                type: 'fraction',
-
-            },
-
-            // 如果需要前进后退按钮
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            //禁止文字选择
-            //noSwiping : true,
-            //鼠标滑动
-            //simulateTouch : false,//禁止鼠标模拟
-            //allowTouchMove: false,//禁止触摸滑动
-        });
-
         let video1 = document.querySelector('#video1');
         let videoBottom1 = document.querySelector('#buttom1');
         let imgBG1 = document.querySelector('#imgBG1');
@@ -246,6 +272,39 @@
             video3.play();
             video3.setAttribute('controls', 'true');
         };
+        var mySwiper = new Swiper('#swiper', {
+            autoplay: false,
+            loop: true,
+            // 如果需要分页器
+            pagination: {
+                el: '#swiper-pagination',
+                type: 'fraction',
+
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            on: {
+                slideChangeTransitionEnd: function () {
+                    $(document).find('video').trigger('pause');
+                    videoBottom1.style.display = 'block';
+                    imgBG1.style.display = 'block';
+                    videoBottom2.style.display = 'block';
+                    imgBG2.style.display = 'block';
+                    videoBottom3.style.display = 'block';
+                    imgBG3.style.display = 'block';
+                },
+            },
+            //禁止文字选择
+            //noSwiping : true,
+            //鼠标滑动
+            //simulateTouch : false,//禁止鼠标模拟
+            //allowTouchMove: false,//禁止触摸滑动
+        });
+
 
         //点击微信图标弹出二维码
 
@@ -260,10 +319,16 @@
         //点击关闭，遮罩层二维码隐藏
         $('.index_companyList').find('li').on('click', (ev) => {
 
-            $('.imgBox').find('img').attr('src', ev.target.getAttribute('date-img'));
-            $('.imgBox').find('a').attr('href', ev.target.getAttribute('date-img'));
+            $('.maskBox').find('img').attr('src', ev.target.getAttribute('date-img'));
+            $('.maskBox').find('a').attr('href', ev.target.getAttribute('date-img'));
             $('#mask').css('display', 'block');
         });
+        $(document).find('video').attr({
+            'x5-video-player-type': 'h5-page',
+            "style": "object-fit:fill",
+            'playsinline': "true",
+            "preload": "auto"
+        })
     </script>
 </body>
 

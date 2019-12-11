@@ -1,7 +1,7 @@
 .package {
     width: 100%;
     height: 100%;
-    overflow-y: auto;
+    
     position: relative;
 
 }
@@ -17,7 +17,7 @@
     font-weight: 400;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    line-height: 46vw;
+    line-height: 40vw;
 }
 
 .item2 {
@@ -74,7 +74,7 @@
 
 .item2 .title {
     text-align: center;
-    margin: 28vh auto 0;
+    margin: 58vw auto 0;
     font-size: 18px;
     font-family: PingFangSC-Medium, PingFang SC;
     font-weight: 500;
@@ -227,7 +227,7 @@
 }
 
 .item3 .imgBox3 .BG3 {
-    background: url(../images/bg物影工厂.png) no-repeat;
+    background: url(../images/bgopct.png) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     right: 0;
@@ -309,4 +309,27 @@
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 15px;
+    display: flex;
+  justify-content:center;
+  align-items:center;
 }
+.item4 .button p{
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    letter-spacing: 1px;
+    max-height: 32px;
+    margin: 0;
+    margin-right: 2px;
+  }
+  .item4 .button i{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(../images/164e651c92322943b9453d0651b63fd6.svg) no-repeat;
+    background-size: 100% 100%;
+  }
